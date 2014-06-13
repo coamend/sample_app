@@ -6,6 +6,14 @@ gem 'rails', '4.0.5'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
+  gem 'guard-rspec', '2.5.0'
+  require 'rbconfig'
+  if RbConfig::CONFIG['target_os'] =~ /mswin|mingw|cygwin/i
+    gem 'wdm', '>= 0.1.0'
+  end
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess', '0.3.6'
 end
 
 group :test do
