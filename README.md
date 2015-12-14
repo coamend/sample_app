@@ -5,3 +5,5 @@ the [*Ruby on Rails Tutorial*](http://railstutorial.org/)
 by [Michael Hartl](http://michaelhartl.com/).
 
 This is a brief test by me to make sure I have SSH setup correctly in RubyMine 
+
+And here is a test to verify that CodeShip is building my app.
