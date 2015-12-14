@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.5'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.8'
+  gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
   gem 'guard-rspec', '2.5.0'
   require 'rbconfig'
